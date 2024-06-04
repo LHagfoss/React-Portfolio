@@ -1,0 +1,77 @@
+.image-7-icon1 {
+  height: 58px;
+  width: 58px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+}
+.tactical-shooter1,
+.valorant2 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 78px;
+}
+.tactical-shooter1 {
+  font-size: var(--font-size-smi);
+  font-weight: 300;
+  color: var(--color-dimgray);
+  min-width: 96px;
+  margin-top: -4px;
+}
+.game-icons-and-names,
+.game-names-and-genres {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.game-icons-and-names {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-mid);
+}
+.june-2-1 {
+  position: relative;
+  font-weight: 500;
+  color: var(--color-dimgray);
+  display: inline-block;
+  min-width: 94px;
+}
+.game-details,
+.game-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.game-info {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.game-details {
+  align-self: stretch;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-14xl-5) var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-bricolage-grotesque);
+}
+@media screen and (max-width: 1350px) {
+  .game-details {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .game-info {
+    flex-wrap: wrap;
+  }
+}

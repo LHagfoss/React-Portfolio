@@ -1,0 +1,66 @@
+.image-2-icon1 {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: var(--br-sm);
+  object-fit: cover;
+}
+.branding1 {
+  position: relative;
+  font-weight: 700;
+}
+.i-love-creating1 {
+  margin: 0;
+  width: 241px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray);
+  display: inline-block;
+}
+.service-name-and-description {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) var(--padding-21xl) 0;
+  gap: var(--gap-4xs);
+}
+.image-2-parent,
+.service-categories,
+.service-name-and-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-2-parent {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+}
+.service-categories {
+  width: 414px;
+  border-radius: var(--br-28xl);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-11xl) var(--padding-11xl) var(--padding-17xl)
+    var(--padding-10xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-bricolage-grotesque);
+}
+@media screen and (max-width: 925px) {
+  .branding1 {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .branding1 {
+    font-size: var(--font-size-lg);
+  }
+  .service-categories {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}

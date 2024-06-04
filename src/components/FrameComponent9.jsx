@@ -26,15 +26,15 @@ const FrameComponent9 = ({ className = "" }) => {
           <span className="reach-customers"> reach customers.</span>
         </p>
       </div>
-      <h1 className="worked-with">
+      <h1 className="worked-with1">
         <span>{`Worked `}</span>
-        <span className="with">with:</span>
+        <span className="with1">with:</span>
       </h1>
       <div className="latest-projects-parent">
         <div className="latest-projects">
           <h1 className="latest-projects1">
             <span>Latest</span>
-            <span className="projects"> Projects</span>
+            <span className="projects1"> Projects</span>
           </h1>
         </div>
         <Button

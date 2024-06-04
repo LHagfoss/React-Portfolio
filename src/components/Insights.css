@@ -1,0 +1,226 @@
+.projects2 {
+  color: var(--color-dimgray);
+}
+.latest-projects3 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.latest-projects2 {
+  width: 503px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0;
+  box-sizing: border-box;
+  min-width: 503px;
+  max-width: 100%;
+}
+.project-list1 {
+  height: 64px;
+  width: 248px;
+}
+.latest-projects-group,
+.worked {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.latest-projects-group {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 2;
+}
+.worked {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.frame-child2 {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-33xl);
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  min-width: 742px;
+  min-height: 554px;
+}
+.frame-child2,
+.frame-child3,
+.rectangle-group {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frame-child3 {
+  width: 651px;
+  position: relative;
+  border-radius: var(--br-33xl);
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 554px;
+}
+.rectangle-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.client-logo-list,
+.client-logo-list1,
+.more-image-names {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-33xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.client-logo-list {
+  height: 554px;
+  flex-shrink: 0;
+}
+.client-logo-list1,
+.more-image-names {
+  flex: 1;
+  max-height: 100%;
+  min-width: 279px;
+  min-height: 554px;
+}
+.another-image-pair {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+  max-width: 100%;
+}
+.additional-logo-icon,
+.image-column {
+  flex: 1;
+  max-width: 100%;
+  min-width: 583px;
+}
+.image-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.additional-logo-icon {
+  height: 1146px;
+  position: relative;
+  border-radius: var(--br-33xl);
+  overflow: hidden;
+  object-fit: cover;
+  min-height: 1146px;
+}
+.image-row,
+.project-images {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.image-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+}
+.project-images {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-19xl);
+  z-index: 2;
+}
+.insights1,
+.project-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.project-list {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-64xl);
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-clash-display);
+}
+.insights1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) var(--padding-6xs) var(--padding-4xs);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1825px) {
+  .frame-child3 {
+    flex: 1;
+  }
+  .rectangle-group {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .latest-projects3 {
+    font-size: var(--font-size-29xl);
+  }
+  .latest-projects2 {
+    flex: 1;
+    min-width: 100%;
+  }
+  .latest-projects-group {
+    flex-wrap: wrap;
+  }
+  .frame-child2 {
+    min-width: 100%;
+  }
+  .rectangle-group {
+    gap: var(--gap-lgi);
+  }
+  .another-image-pair {
+    flex-wrap: wrap;
+  }
+  .additional-logo-icon,
+  .image-column {
+    min-width: 100%;
+  }
+  .image-row,
+  .project-images {
+    gap: var(--gap-lgi);
+  }
+  .project-list {
+    gap: var(--gap-22xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .latest-projects3 {
+    font-size: var(--font-size-17xl);
+  }
+  .another-image-pair,
+  .image-column {
+    gap: var(--gap-lgi);
+  }
+  .project-list {
+    gap: var(--gap-2xl);
+  }
+}

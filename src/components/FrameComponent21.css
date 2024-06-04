@@ -1,0 +1,50 @@
+.work-status {
+  width: 236px;
+  height: 48px;
+  z-index: 2;
+}
+.increase-conversation1,
+.reach-customers1,
+.user-experience1 {
+  color: var(--color-white);
+}
+.im-lucas-hagfoss-container1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.width-inner,
+.work-status-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.work-status-parent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-clash-display);
+}
+.width-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) var(--padding-9xs-3) var(--padding-3xs);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 925px) {
+  .im-lucas-hagfoss-container1 {
+    font-size: var(--font-size-25xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .im-lucas-hagfoss-container1 {
+    font-size: var(--font-size-14xl);
+  }
+}

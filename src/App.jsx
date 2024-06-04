@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import AbousUs from "./pages/AbousUs";
+import Width from "./pages/Width";
 
 function App() {
   const action = useNavigationType();
@@ -24,6 +25,10 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/1920-width":
         title = "";
         metaDescription = "";
         break;
@@ -46,6 +51,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<AbousUs />} />
+      <Route path="/1920-width" element={<Width />} />
     </Routes>
   );
 }
