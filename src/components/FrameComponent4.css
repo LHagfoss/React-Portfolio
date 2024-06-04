@@ -1,0 +1,112 @@
+.frame-wrapper1,
+.frame-wrapper2 {
+  width: 417px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.image-5-icon {
+  height: 564px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-13xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.system-look-like,
+.what-does-a {
+  display: block;
+}
+.what-does-a-container {
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+}
+.case-study {
+  position: relative;
+  color: var(--color-dimgray);
+  display: inline-block;
+  min-width: 81px;
+}
+.what-does-a-prperly-designer-f-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.vector-icon2 {
+  height: 21px;
+  width: 21px;
+  position: relative;
+}
+.frame-parent1,
+.frame-wrapper4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent1 {
+  flex-direction: row;
+  gap: var(--gap-25xl);
+}
+.frame-wrapper4 {
+  margin: 0 !important;
+  position: absolute;
+  top: 440px;
+  left: 0;
+  backdrop-filter: blur(12.6px);
+  border-radius: 0 0 var(--br-13xl) var(--br-13xl);
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-11xl-5) var(--padding-2xl);
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 1;
+}
+.frame-div,
+.frame-wrapper3,
+.image-5-parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.image-5-parent {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frame-div,
+.frame-wrapper3 {
+  align-items: center;
+}
+.frame-wrapper3 {
+  width: 417px;
+  justify-content: center;
+}
+.frame-div {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-bricolage-grotesque);
+}
+@media screen and (max-width: 1425px) {
+  .frame-div {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-parent1 {
+    gap: var(--gap-3xl);
+  }
+}

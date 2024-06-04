@@ -1,0 +1,157 @@
+.shisha-child {
+  height: 48px;
+  width: 236px;
+  position: relative;
+  border-radius: var(--br-57xl);
+  display: none;
+}
+.vi-icon {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  z-index: 1;
+}
+.vi-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.available-for-work {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.shisha {
+  border-radius: var(--br-57xl);
+  background-color: var(--color-darkslategray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-13xl);
+  gap: var(--gap-5xs);
+  z-index: 2;
+}
+.hagfoss,
+.increase-conversation,
+.reach-customers,
+.user-experience {
+  color: var(--color-white);
+}
+.im-lucas-hagfoss-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-36xl);
+  font-weight: 500;
+  font-family: var(--font-clash-display);
+  z-index: 2;
+  color: var(--color-dimgray);
+}
+.shisha-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xl);
+  gap: var(--gap-7xl);
+  font-family: var(--font-bricolage-grotesque);
+}
+.with {
+  color: var(--color-dimgray);
+}
+.worked-with {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.projects {
+  color: var(--color-dimgray);
+}
+.latest-projects1 {
+  margin: 0;
+  height: 62px;
+  width: 400px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 400px;
+  max-width: 100%;
+}
+.latest-projects {
+  width: 424px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-item {
+  height: 86px;
+  width: 248px;
+}
+.frame-group,
+.latest-projects-parent {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.latest-projects-parent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 2;
+  font-size: var(--font-size-31xl);
+}
+.frame-group {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xl);
+  box-sizing: border-box;
+  gap: var(--gap-33xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 825px) {
+  .im-lucas-hagfoss-container {
+    font-size: var(--font-size-25xl);
+  }
+  .worked-with {
+    font-size: var(--font-size-9xl);
+  }
+  .latest-projects1 {
+    font-size: var(--font-size-21xl);
+  }
+  .latest-projects-parent {
+    flex-wrap: wrap;
+  }
+  .frame-group {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .im-lucas-hagfoss-container {
+    font-size: var(--font-size-14xl);
+  }
+  .worked-with {
+    font-size: var(--font-size-2xl);
+  }
+  .latest-projects1 {
+    font-size: var(--font-size-11xl);
+  }
+}
