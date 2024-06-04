@@ -1,0 +1,68 @@
+.image7Icon {
+  height: 58px;
+  width: 58px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+}
+.tacticalShooter,
+.valorant {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 78px;
+}
+.tacticalShooter {
+  font-size: var(--font-size-smi);
+  font-weight: 300;
+  color: var(--color-dimgray);
+  min-width: 96px;
+  margin-top: -4px;
+}
+.image7Parent,
+.valorantParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image7Parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-mid);
+}
+.june2 {
+  position: relative;
+  font-weight: 500;
+  color: var(--color-dimgray);
+  display: inline-block;
+  min-width: 94px;
+}
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.frameParent {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-2xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-bricolage-grotesque);
+}
+@media screen and (max-width: 450px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}

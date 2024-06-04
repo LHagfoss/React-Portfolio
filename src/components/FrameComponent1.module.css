@@ -1,0 +1,323 @@
+.letsTalk {
+  color: var(--color-white);
+}
+.letsTalkAbout {
+  margin: 0;
+}
+.yourProject1 {
+  line-height: 56px;
+}
+.yourProject {
+  margin: 0;
+}
+.letsTalkAboutContainer {
+  margin: 0;
+  width: 600px;
+  height: 121px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameChild {
+  align-self: stretch;
+  height: 48px;
+  position: relative;
+  border-radius: var(--br-57xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fillTheForm {
+  position: relative;
+  display: inline-block;
+  min-width: 102px;
+}
+.iconParkOutlinesend {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 22px;
+}
+.fillTheFormParent,
+.vectorParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fillTheFormParent {
+  margin: 0 !important;
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  flex-direction: row;
+  gap: var(--gap-10xs);
+  z-index: 1;
+}
+.vectorParent {
+  width: 167px;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.orCopyAn,
+.vectorIcon,
+.vectorParent {
+  position: relative;
+}
+.vectorIcon {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.frameGroup,
+.orCopyAnEmailLucash1707Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.orCopyAnEmailLucash1707Parent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 208px;
+  cursor: pointer;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-lg);
+  font-family: var(--font-bricolage-grotesque);
+}
+.letsTalkAboutYourProjectParent {
+  width: 511px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0-59-;
+  box-sizing: border-box;
+  gap: var(--gap-55xl);
+  max-width: 100%;
+}
+.playing {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 45px;
+}
+.vectorIcon1 {
+  height: 2px;
+  width: 2px;
+  position: relative;
+}
+.online {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 32px;
+}
+.playingParent,
+.vectorGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.vectorGroup {
+  border-radius: var(--br-15xl);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-xl) var(--padding-10xs)
+    var(--padding-sm);
+  gap: var(--gap-4xs);
+  font-size: var(--font-size-3xs);
+}
+.playingParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.image8Icon {
+  height: 58px;
+  width: 58px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.riotGames,
+.valorant {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 78px;
+}
+.riotGames {
+  font-size: var(--font-size-6xs);
+  color: var(--color-dimgray);
+  min-width: 39px;
+  margin-top: -2px;
+}
+.valorantParent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameDiv,
+.image8Parent,
+.valorantParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.image8Parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-bricolage-grotesque);
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.hoursAgo,
+.listening {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 57px;
+}
+.hoursAgo {
+  line-height: 13px;
+  min-width: 59px;
+}
+.hoursAgoWrapper,
+.listeningParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hoursAgoWrapper {
+  border-radius: var(--br-15xl);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-10xs) var(--padding-4xs);
+  white-space: nowrap;
+  font-size: var(--font-size-3xs);
+}
+.listeningParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-mini);
+}
+.image11Icon {
+  height: 58px;
+  width: 58px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  object-fit: cover;
+}
+.clovisReyesVdycd,
+.hikari {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 43px;
+}
+.clovisReyesVdycd {
+  font-size: var(--font-size-6xs);
+  color: var(--color-dimgray);
+  min-width: 69px;
+  margin-top: -2px;
+}
+.hikariParent,
+.image11Parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image11Parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-bricolage-grotesque);
+}
+.frameParent1 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frameContainer,
+.frameParent,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameContainer {
+  width: 146px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+  font-size: var(--font-size-xs);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-138xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-dimgray);
+  font-family: var(--font-clash-display);
+}
+@media screen and (max-width: 1425px) {
+  .frameParent {
+    padding-right: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .letsTalkAboutContainer {
+    font-size: var(--font-size-29xl);
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .letsTalkAboutYourProjectParent {
+    height: auto;
+    gap: var(--gap-18xl);
+  }
+  .frameParent {
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .letsTalkAboutContainer {
+    font-size: var(--font-size-17xl);
+  }
+  .letsTalkAboutYourProjectParent {
+    gap: var(--gap-lg);
+  }
+}

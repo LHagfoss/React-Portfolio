@@ -1,0 +1,95 @@
+.image5Icon {
+  height: 564px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-13xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.systemLookLike,
+.whatDoesA {
+  display: block;
+}
+.whatDoesAContainer {
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+}
+.caseStudy {
+  position: relative;
+  color: var(--color-dimgray);
+  display: inline-block;
+  min-width: 81px;
+}
+.whatDoesAPrperlyDesignerFParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.vectorIcon {
+  height: 21px;
+  width: 21px;
+  position: relative;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameGroup {
+  flex-direction: row;
+  gap: var(--gap-25xl);
+}
+.frameWrapper {
+  margin: 0 !important;
+  position: absolute;
+  top: 440px;
+  left: 0;
+  backdrop-filter: blur(12.6px);
+  border-radius: 0 0 var(--br-13xl) var(--br-13xl);
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-11xl-5) var(--padding-2xl);
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 1;
+}
+.frameParent,
+.image5Parent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.image5Parent {
+  width: 417px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameParent {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-bricolage-grotesque);
+}
+@media screen and (max-width: 1425px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameGroup {
+    gap: var(--gap-3xl);
+  }
+}
